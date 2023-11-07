@@ -1,13 +1,7 @@
-import './App.css'
-import { ParentComponent } from './hooks/useCallback/ParentComponent'
+import "./App.css";
 
 const App = () => {
+  return <></>;
+};
 
-  return (
-    <>
-    <ParentComponent />
-    </>
-  )
-}
-
-export default App
+export default App;

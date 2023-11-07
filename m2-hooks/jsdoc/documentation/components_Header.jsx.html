@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <title>JSDoc: Source: components/Header.jsx</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,37 @@
 
 <div id="main">
 
-    <h1 class="page-title">Home</h1>
+    <h1 class="page-title">Source: components/Header.jsx</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import React from "react";
 
+/**
+ * El componente del header reutilizable
+ * @function
+ * @param {object} props - Las props del componente
+ * @param {string} props.title - Título del encabezado
+ * @param {string} [props.subtitle] - Subtítulo opcional del encabezado
+ * @returns {JSX.Element} - Retorna el componente del encabezado
+ */
 
-    <h3> </h3>
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
+export const Header = ({title, subtitle}) => {
+  return (
+    &lt;header>
+      &lt;h1>{title}&lt;/h1>
+      {subtitle &amp;&amp; &lt;h2>{subtitle}&lt;/h2>}
+    &lt;/header>
+  );
+};
+</code></pre>
+        </article>
+    </section>
 
 
 
