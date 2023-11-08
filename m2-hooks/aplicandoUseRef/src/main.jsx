@@ -1,3 +1,6 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/display-name */
+// @ts-nocheck
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'

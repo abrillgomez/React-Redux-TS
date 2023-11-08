@@ -71,7 +71,7 @@ function sayHello(user) {
 /**
  * @function
  * @param {number[]} numbers - El array de números a filtrar
- * @returns {number} - Un unevo array con los números pares
+ * @returns {number} - Un nuevo array con los números pares
  */
 function filterEvenNumbers(numbers) {
   return numbers.filter((number) => number % 2 === 0);
