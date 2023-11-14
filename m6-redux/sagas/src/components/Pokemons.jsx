@@ -1,7 +1,6 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchingPokemons } from "../reducers/pokemonSlice";
-import { useState } from "react";
 
 export const Pokemons = () => {
 
