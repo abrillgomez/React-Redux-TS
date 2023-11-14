@@ -42,3 +42,20 @@ function duplicar(valor) {
 }
 const numeroDuplicado = duplicar(5);
 const textoDuplicado = duplicar("Hola");
+const persona = {
+    nombre: "Luis",
+    edad: 25,
+    direccion: {
+        calle: "San Juan",
+        numero: 12
+    }
+};
+const Tortuga = {
+    nombre: "Manuelita",
+    tipo: "acuatico"
+};
+const Turpial = {
+    nombre: "Turpial",
+    tipo: "ave",
+    colorPlumaje: "amarillo"
+};
