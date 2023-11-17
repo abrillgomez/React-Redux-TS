@@ -21,7 +21,7 @@ export const Navbar = () => {
       </div>
       <div className={styles.navbarCartContainer}>
         <p className={styles.navbarTextAmount}>2</p>
-        <img src={Cart} alt="Cart" onClick={handleShowCartModal} />
+        <img src={Cart} alt="cart" onClick={handleShowCartModal} />
       </div>
       {showCartModal && <CartModal handleShowCartModal={handleShowCartModal} />}
     </div>
